@@ -135,7 +135,7 @@ html {
 
 .bg-pattern{
     background-image: url('../images/background/connectwork.png');
-    background-position: center;
+    background-attachment: fixed;
 }
 
 .text-light {
