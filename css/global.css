@@ -71,6 +71,7 @@ html {
     margin-left:-200px;
     transition: margin .5s;
     color: white;
+    background-color: #3c3c3c66
 }
 
 /*CSS GRID*/
@@ -101,8 +102,8 @@ html {
     display: table;
 }
 /*DISPLAY*/
-.vh-45{
-    height: 45vh;
+.vh-48{
+    min-height: 48vh;
 }
 .d-flex{
     display: flex;
