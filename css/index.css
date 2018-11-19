@@ -22,3 +22,34 @@
 .content .section-title{
     font-size: 3rem;
 }
+
+.bg-portfolio-dicebag{
+    background-image: url('../images/portfolio/DiceBag.png');
+}
+.bg-portfolio-essentials{
+    background-image: url('../images/portfolio/essentals.png');
+}
+.bg-portfolio-giphy{
+    background-image: url('../images/portfolio/Giphy.png');
+}
+.bg-portfolio-getout{
+    background-image: url('../images/portfolio/GetOut.png');
+}
+.bg-portfolio-rpg{
+    background-image: url('../images/portfolio/RPG.png');
+}
+.bg-portfolio-hangman{
+    background-image: url('../images/portfolio/Hangman.png');
+}
+.bg-portfolio-bootstrap{
+    background-image: url('../images/portfolio/bootstrap.png');
+}
+.bg-portfolio-html{
+    background-image: url('../images/portfolio/HTML.png');
+}
+
+[class*="bg-portfolio-"] {
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
