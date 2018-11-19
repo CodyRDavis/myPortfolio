@@ -5,6 +5,9 @@
 .content p{
     padding: 0 16px;
     padding-bottom: 16px;
+    text-indent: 32px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .brand-title {
     font-size: 4rem;
