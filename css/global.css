@@ -73,6 +73,9 @@ html {
     color: white;
     background-color: #3c3c3c66
 }
+.link{
+    cursor: pointer;
+}
 
 /*CSS GRID*/
 /*#####################################################################*/
@@ -102,6 +105,9 @@ html {
     display: table;
 }
 /*DISPLAY*/
+.vh-24{
+    min-height: 24vh;
+}
 .vh-48{
     min-height: 48vh;
 }

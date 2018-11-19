@@ -20,9 +20,9 @@
 
     <div class="social-media">
         <ul class="clearfix">
-            <li><img src="./images/socialMedia/GitHub-Mark-Light-32px.png" alt="GitHub icon"></li>
-            <li><img src="./images/socialMedia/Twitter_Social_Icon_Square_White.png" alt="twitter icon"></li>
-            <li><img src="./images/socialMedia/In-White-34px-TM.png" alt="Linked In icon"></li>
+            <li id="button-github"><img src="./images/socialMedia/GitHub-Mark-Light-32px.png" alt="GitHub icon"></li>
+            <li id="button-twitter"><img src="./images/socialMedia/Twitter_Social_Icon_Square_White.png" alt="twitter icon"></li>
+            <li id="button-linkedIn"><img src="./images/socialMedia/In-White-34px-TM.png" alt="Linked In icon"></li>
         </ul>
     </div>
 
@@ -36,14 +36,14 @@
         </div>  
         <div id="content" class="content">  
             <div class="row">
-                <div class="col-12">
+                <div class="col-12"><!--BRAND-->
                     <div class="brand-title d-flex center-vertical center-horizontal">
                         <h1>Cody Davis</h1>
                     </div>
-                </div>
+                </div><!--END BRAND-->
             </div><!--END ROW-->
             <div class="row">
-                <div class="col-12">
+                <div class="col-12"><!--ABOUT ME-->
                     <div class = row>
                         <div class="col-12">
                             <div class="vh-48"></div><!--Just for spacing-->
@@ -51,16 +51,15 @@
                                 <h2 class="section-title text-center">About Me</h2>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, voluptate vitae. Labore minima esse laboriosam tenetur reprehenderit sint, in sunt fugiat, eligendi illum eveniet, asperiores soluta ab mollitia vero dignissimos.</p>
                             </div>
-                            
                         </div>
                     </div><!--END ROW-->
-                </div>
+                </div><!--END ABOUT ME-->
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12"><!--PORTFOLIO---->
                     <div class="row">
                         <div class="col-12">
-                            <div class="vh-48"></div>
+                            <div class="vh-48"></div><!--Blank for spacing-->
                         </div>
                     </div>
                     <div class="row">
@@ -72,7 +71,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <div class="vh-48"></div>
+                            <div class="vh-24"></div><!--Blank for spacing-->
                         </div>
                     </div>
                     <div class="row"><!--DICEBAG-->
@@ -83,11 +82,16 @@
                     <div class="row">
                         <div class="col-12">
                             <div class = "vh-48 bg-pattern">
-                                <h2>DiceBag</h2>
+                                <h2 id="button-dicebag" class="link">DiceBag</h2>
                                 <p>A project I made to streamline the Dungeons and Dragons/Pathfinder experiance. Create custom dice to represent your rolls, and the face of each dice updates with your total rolled.
                                     fast, effective, and takes the math out of playing this RPG to streamline combat.
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="vh-24"></div><!--Blank for spacing-->
                         </div>
                     </div><!--END DICEBAG-->
                     <div class="row"><!--Essentials-->
@@ -95,17 +99,23 @@
                             <div class="vh-48 bg-portfolio-essentials"></div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-12">
                             <div class = "vh-48 bg-pattern">
-                                <h2>Essentials</h2>
+                                <h2 id="button-essentals" class="link">Essentials</h2>
                                 <p>
                                     This was my first group project at bootcamp. we utilized a number of APIs and fethched data based on their search. we present the user with
                                     information about the area they search. This was intended to give a snapshot of important places around the users searched area.
                                 </p>
                             </div>
                         </div>
-                    </div><!--END Essentials-->
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="vh-24"></div><!--Spacer-->
+                        </div>
+                    </div> <!--END Essentials-->
                     <div class="row"><!--GIPHY-->
                         <div class="col-12">
                             <div class="vh-48 bg-portfolio-giphy"></div>
@@ -114,13 +124,18 @@
                     <div class="row">
                         <div class="col-12">
                             <div class = "vh-48 bg-pattern">
-                                <h2>Giphy</h2>
+                                <h2 id="button-giphy" class="link">Giphy</h2>
                                 <p>
                                     My first project using API calls. Takes a search term from the user and goes to Giphy to get images related to that search and displays them.
                                 </p>
                             </div>
                         </div>
-                    </div><!--END GIPHY-->
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="vh-24"></div><!--Spacer-->
+                        </div>
+                    </div> <!--END GIPHY-->
                     <div class="row"><!--GETOUT-->
                         <div class="col-12">
                             <div class="vh-48 bg-portfolio-getout"></div>
@@ -129,14 +144,19 @@
                     <div class="row">
                         <div class="col-12">
                             <div class = "vh-48 bg-pattern">
-                                <h2>Get Out</h2>
+                                <h2 id="button-getout" class="link">Get Out</h2>
                                 <p>
                                     My take on a choose your own adventure game. This was my first project playing around with timers to handle some function calls. The timer
                                     was used to track how much time the user had left before getting a game over. the only way to clear the timer is to escape the house before midnight.
                                 </p>
                             </div>
                         </div>
-                    </div><!--END GETOUT-->
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="vh-24"></div><!--Spacer-->
+                        </div>
+                    </div> <!--END GETOUT-->
                     <div class="row"><!--RPG-->
                         <div class="col-12">
                             <div class="vh-48 bg-portfolio-rpg"></div>
@@ -145,14 +165,19 @@
                     <div class="row">
                         <div class="col-12">
                             <div class = "vh-48 bg-pattern">
-                                <h2>RPG</h2>
+                                <h2 id="button-rpg" class="link">RPG</h2>
                                 <p>
                                     A simple RPG which loosely uses D20 rules. The user is able to pick a character and go into the dungeon fighting a random monster untill the hero dies.
                                     there is no way to win, just luck guiding our hero to see how deep into the dungeon they can go.
                                 </p>
                             </div>
                         </div>
-                    </div><!--END RPG-->
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="vh-24"></div><!--Spacer-->
+                        </div>
+                    </div> <!--END RPG-->
                     <div class="row"><!--HANGMAN-->
                         <div class="col-12">
                             <div class="vh-48 bg-portfolio-hangman"></div>
@@ -161,13 +186,18 @@
                     <div class="row">
                         <div class="col-12">
                             <div class = "vh-48 bg-pattern">
-                                <h2>Hangman</h2>
+                                <h2 id="button-hangman" class="link">Hangman</h2>
                                 <p>
                                     the classic game in code form. This was my first project I was listening for events, thise time it happened to be on keydown events.
                                 </p>
                             </div>
                         </div>
-                    </div><!--END HANGMAN-->
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="vh-24"></div><!--Spacer-->
+                        </div>
+                    </div> <!--END HANGMAN-->
                     <div class="row"><!--PORTFOLIO-->
                         <div class="col-12">
                             <div class="vh-48 bg-portfolio-bootstrap"></div>
@@ -176,7 +206,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class = "vh-48 bg-pattern">
-                                <h2>BootStrap</h2>
+                                <h2 id="button-bootstrap" class="link">BootStrap</h2>
                                 <p>
                                     My first project using bootstrap. This allowed for much faster prototyping as well as getting a much more standard look to my webpage. It's
                                     seeing bootstrap that I started to think about CSS in a totaly different way than I had been using for the past week leading up to class and
@@ -185,9 +215,29 @@
                             </div>
                         </div>
                     </div><!--END PORTFOLIO-->
-                </div>
+                </div><!--END PORTFOLIO-->
             </div>
-        </div>
+            
+            <div class="row">
+                <div class="col-12"><!--REACH OUT-->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="vh-48"></div><!--Spacer-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class = "vh-48 bg-pattern d-flex center-horizontal center-vertical">
+                                <div>
+                                   <h2 class="section-title text-center">Reach Out</h2>
+                                   <h3>Email: CodyRyanDavis@gmail.com</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--END REACH OUT-->
+            </div>
+        </div><!--END CONTENT-->
     </div>
     <script type="text/javascript" src="javascript/nav.js"></script>
 </body>

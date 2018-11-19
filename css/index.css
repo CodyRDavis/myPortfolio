@@ -2,6 +2,10 @@
     font-size: 1.5rem;
     padding: 16px;
 }
+.content h3{
+    font-size: 1.25rem;
+    padding: 16px;
+}
 .content p{
     padding: 0 16px;
     padding-bottom: 16px;
@@ -21,6 +25,9 @@
 
 .content .section-title{
     font-size: 3rem;
+}
+.link:hover{
+    color: #3c3c3c;
 }
 
 .bg-portfolio-dicebag{
