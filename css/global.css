@@ -56,17 +56,18 @@ html {
     transition: margin .5s;
 }
 .wrapper{
-    padding-top: 90px;
+    padding-top: 67px;
     position: relative;
     overflow: hidden;
     width: 100%;
 }
 #sideNav{
-    position: absolute;
-    top: 90px;
+    position: fixed;
+    top: 0px;
     left:0;
     width: 200px;
     height:100%;
+    padding-top: 67px;
     margin-left:-200px;
     transition: margin .5s;
     color: white;
@@ -90,12 +91,54 @@ html {
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    /*padding: 15px;
     border: 1px solid red;
+    */
 }
-
 .row::after {
     content: "";
     clear: both;
     display: table;
+}
+/*DISPLAY*/
+.vh-45{
+    height: 45vh;
+}
+.d-flex{
+    display: flex;
+}
+/*CENTERING*/
+/*#####################################################################*/
+
+.text-center{
+    text-align: center;
+}
+.mx-auto {
+    margin: auto;
+}
+.center-vertical{
+    align-items: center;
+}
+.center-horizontal {
+    justify-content: center;
+}
+
+/*COLORS*/
+/*###################################################################*/
+
+.bg-pattern{
+    background-image: url('../images/background/connectwork.png');
+    background-position: center;
+}
+
+.text-light {
+    color: white;
+}
+
+
+
+/*MEDIA QUERY*/
+/*#####################################################################*/
+@media screen and (max-width: 280px){
+
 }
